@@ -6,4 +6,4 @@ def hello(nome=""):
     print(f"Hello {x}!")
 
 hello('fafm')
-idade(45)
+idade('fabricio ' + str(45))
