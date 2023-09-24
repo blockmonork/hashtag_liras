@@ -1,0 +1,16 @@
+hashtag progração lira
+aulas python
+25 a 28 setembro 2023 - 19:30
+-------
+
+------- python rodando em docker
+docker stop && rm hashtag_lira
+docker run -dit -p 5000:5000 --name hashtag_lira -v "$PWD":/home python:3.11.4-slim-bullseye
+cd /home
+apt-get update && apt-get upgrade 
+pip install --upgrade pip
+pip install Flask 
+pra testar:
+$ flask --app <py filename> run
+pra rodar de dentro do container, tem que liberar o host:
+flask  --app index.py run --host=0.0.0.0
