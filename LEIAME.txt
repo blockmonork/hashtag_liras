@@ -1,8 +1,40 @@
+
+obs: aula4 - chat - add to multi
+
+
+sobre pillow e a lib PIL
+https://www.youtube.com/watch?v=kT85FfTE22E
+
+gtts (google text to speech) python
+https://www.youtube.com/watch?v=zsHDvIhOqyk
+
+aula sobre flutter + python (for apps) com flet
+https://www.youtube.com/watch?v=x8DM4omLWbM
+
+criando e publicando site em flask
+https://www.youtube.com/watch?v=K2ejI4z8Mbg
+
+streamlit - criar sites para análise de dados em python
+https://www.youtube.com/watch?v=0sxWFeFlsHs
+
+mais sobre dashboard streamlit
+https://www.youtube.com/watch?v=k4bjv6e5goo
+
+webscraping com python
+https://www.youtube.com/watch?v=dKAKVVciU5M
+
+outro dashboard com streamlit
+https://www.youtube.com/watch?v=0lYBYYHBT5k
+
+
+sobre php8
+https://fsphp.com.br/php8/?utm_source=youtube.com&utm_medium=150486817573&utm_campaign=20305699428&utm_content=663642080088&gclid=Cj0KCQjw4vKpBhCZARIsAOKHoWQyjOObVbZRvL1-Jmm2vwUEGDO1amFqVjY5KdALoF6biH0RcdK8TtEaAp-7EALw_wcB
+
+-------
+
 hashtag progração lira
 aulas python
 25 a 28 setembro 2023 - 19:30
--------
-
 ------- python rodando em docker
 docker stop && rm hashtag_lira
 docker run -dit -p 5000:5000 --name hashtag_lira -v "$PWD":/home python:3.11.4-slim-bullseye
@@ -14,3 +46,32 @@ pra testar:
 $ flask --app <py filename> run
 pra rodar de dentro do container, tem que liberar o host:
 flask  --app index.py run --host=0.0.0.0
+
+======= AULA 1 
+ok
+
+======= AULA 2
+análise de dados
+instalei o jupyter notebook no pc
+$ pip install jupyterlab
+$ pip install notebook
+-> pra rodar eles:
+$ jupyter lab
+[ abre as celulas no navegador ]
+$ jupyter notebook
+[ abre o navegador mas com muito mais opções ]
+
+instalei a extensão do jupyter no code
+na primeira execução, ele pergunta em qual env vai rodar...selecionei criar novo environment via .venv (o próprio vscode cria e instala os ipykernels do jupyter)
+
+======= AULA 3
+pandas
+numpy
+scikit-learn
+
+======= AULA 4
+flet
+
+
+
+
